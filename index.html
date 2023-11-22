@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anushka-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="indexNew.CSS">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Anushka's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hey!! I am <span class="purple">Anushka Srivastava</span>
+                <div>and I am passionate</div>
+
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">
+                        <a
+                            href="https://drive.google.com/file/d/1H15dcJO1JcpdYNKT2tPYrlJz2wDbZNWH/view?usp=drive_link"
+                            target="_blank">Download Resume</a>
+                    </button>
+                    <button class="btn">
+                        <a href="https://github.com/Anushri-glitch" target="_blank">
+                            Visit Github</a>
+                    </button>
+                </div>
+            </div>
+            <div class="rightSection"><img src="port.png" alt=""></div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What i have done so far</span>
+            <h1>Work Experiences</h1>
+
+            <div class="hori-box">
+                <div class="vertical">
+                    <img class="image-top" src="vertical-top.png" alt="">
+                    <div class="vertical-title">Teaching Assistant (15 Nov 2022 - 15 April 2023)</div>
+                    <div class="vertical-desc">I have completed my Java Oops internship as Teaching Assistant .In
+                        Which I have taken so many interviews of new students and also already admitted students.I
+                        have also taken doubts where I solve multiple Java and Oops related queries with different DSA
+                        logics.visit my LinkedIn to see details.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">Anushka's Developer Portfolio</div>
+            <div class="footer-second">
+                <ul>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    <li>About</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    <li>About</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <img class="foot-img" src="animate2.gif">
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169 anushka-portfolio.rf.gd | All rights reserved
+        </div>
+    </footer>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Java Developer', 'REST Full API Creator', 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
