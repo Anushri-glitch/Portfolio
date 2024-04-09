@@ -1,0 +1,85 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+header {
+  background-color: rgb(32, 32, 68);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  padding: 10px 0;
+  text-align: center;
+}
+.container {
+  max-width: auto;
+  /* margin: 20px auto; */
+  align-items:center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.section-info{
+  width: 800px;
+  padding: 0 20px; 
+  align-items: center;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+/* Part 1 */
+.para1 {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Part 2 */
+.skill-head {
+  display: flex;
+  justify-content:initial;
+  align-items:start;
+  width: auto;
+  height: 55px;
+}
+.skill-P {
+  width: auto;
+}
+.skill-diff {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.skills {
+  font-size: 3rem;
+  width: 45px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: none;
+}
+.spring-logo {
+  padding-top: 0.5rem;
+}
+
+/* Section Photo */
+.section-photo{
+  border: 5px solid black;
+  margin-top: 20px;
+  height: 500px;
+  width: 23%;
+  padding: 5px;
+  
+}
+.photo {
+  background-image: url("mypicweb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+
